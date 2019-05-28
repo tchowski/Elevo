@@ -1,0 +1,1189 @@
+  [1m[35m (310.5ms)[0m  [1m[35mCREATE DATABASE "elevo_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (232.5ms)[0m  [1m[35mCREATE DATABASE "elevo_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+Started GET "/" for ::1 at 2019-05-27 21:41:17 +0200
+Processing by StaticController#home as HTML
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/service-worker.js" for ::1 at 2019-05-27 21:41:19 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-05-27 23:31:42 +0200
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - ../contents/teams.json):
+  
+app/controllers/static_controller.rb:5:in `read'
+app/controllers/static_controller.rb:5:in `<class:StaticController>'
+app/controllers/static_controller.rb:4:in `<main>'
+Started GET "/service-worker.js" for ::1 at 2019-05-27 23:31:44 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-05-27 23:33:33 +0200
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - /home/tchowski/elevo_exercice/elevo/public/data.json):
+  
+app/controllers/static_controller.rb:5:in `read'
+app/controllers/static_controller.rb:5:in `<class:StaticController>'
+app/controllers/static_controller.rb:4:in `<main>'
+Started GET "/" for ::1 at 2019-05-27 23:33:34 +0200
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - /home/tchowski/elevo_exercice/elevo/public/data.json):
+  
+app/controllers/static_controller.rb:5:in `read'
+app/controllers/static_controller.rb:5:in `<class:StaticController>'
+app/controllers/static_controller.rb:4:in `<main>'
+Started GET "/service-worker.js" for ::1 at 2019-05-27 23:33:36 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-05-27 23:37:30 +0200
+Processing by StaticController#home as HTML
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/service-worker.js" for ::1 at 2019-05-27 23:37:32 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-05-27 23:37:34 +0200
+Processing by StaticController#home as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/service-worker.js" for ::1 at 2019-05-27 23:37:36 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-05-27 23:39:07 +0200
+Processing by StaticController#home as HTML
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/service-worker.js" for ::1 at 2019-05-27 23:39:09 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-05-27 23:46:01 +0200
+Processing by StaticController#home as HTML
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/service-worker.js" for ::1 at 2019-05-27 23:46:03 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-05-27 23:47:29 +0200
+Processing by StaticController#home as HTML
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/service-worker.js" for ::1 at 2019-05-27 23:47:31 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-05-27 23:49:34 +0200
+Processing by StaticController#home as */*
+Completed 200 OK in 33ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-27 23:50:47 +0200
+Processing by StaticController#home as */*
+Completed 200 OK in 20ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-27 23:51:58 +0200
+Processing by StaticController#home as */*
+Completed 200 OK in 13ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-27 23:52:09 +0200
+Processing by StaticController#home as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/service-worker.js" for ::1 at 2019-05-27 23:52:12 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/service-worker.js"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (94.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (13.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4407396117088788495)[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+Migrating to TableUsers (20190528003321)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (24.7ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "team_name" character varying, "part_number" character varying, "manager_id" integer)[0m
+  ↳ db/migrate/20190528003321_table_users.rb:5
+  [1m[35m (10.7ms)[0m  [1m[35mALTER TABLE "users" ADD CONSTRAINT "fk_rails_cc166f32f0"
+FOREIGN KEY ("manager_id")
+  REFERENCES "users" ("id")
+[0m
+  ↳ db/migrate/20190528003321_table_users.rb:10
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190528003321"]]
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-05-28 00:51:56.124556"], ["updated_at", "2019-05-28 00:51:56.124556"]]
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(4407396117088788495)[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4407396117088788495)[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+Migrating to ChangeColumnName (20190528005714)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (15.1ms)[0m  [1m[35mALTER TABLE "users" RENAME COLUMN "part_number" TO "full_name"[0m
+  ↳ db/migrate/20190528005714_change_column_name.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190528005714"]]
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(4407396117088788495)[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (34.0ms)[0m  [1m[32mINSERT INTO "users" ("team_name", "full_name", "manager_id") VALUES ($1, $2, $3) RETURNING "id"[0m  [["team_name", "R&D"], ["full_name", "Gregory Shell"], ["manager_id", 1]]
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("team_name", "full_name", "manager_id") VALUES ($1, $2, $3) RETURNING "id"[0m  [["team_name", "R&D"], ["full_name", "Patrick McKenzie"], ["manager_id", 1]]
+  [1m[35m (6.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("team_name", "full_name", "manager_id") VALUES ($1, $2, $3) RETURNING "id"[0m  [["team_name", "R&D"], ["full_name", "Mathieu Denim"], ["manager_id", 1]]
+  [1m[35m (6.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("team_name", "full_name", "manager_id") VALUES ($1, $2, $3) RETURNING "id"[0m  [["team_name", "Product"], ["full_name", "Brian Setiba"], ["manager_id", 1]]
+  [1m[35m (6.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("team_name", "full_name", "manager_id") VALUES ($1, $2, $3) RETURNING "id"[0m  [["team_name", "Sales"], ["full_name", "Nicolas Moeret"], ["manager_id", 2]]
+  [1m[35m (2.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("team_name", "full_name", "manager_id") VALUES ($1, $2, $3) RETURNING "id"[0m  [["team_name", "Sales"], ["full_name", "Selfie Trial"], ["manager_id", 2]]
+  [1m[35m (2.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/teams" for ::1 at 2019-05-28 13:35:45 +0200
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as */*
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 10ms (Views: 3.3ms | ActiveRecord: 2.7ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4407396117088788495)[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+Migrating to TableManagers (20190528113907)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (13.7ms)[0m  [1m[35mCREATE TABLE "managers" ("id" bigserial primary key, "full_name" character varying, "team_name" character varying, "manager_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190528113907_table_managers.rb:5
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190528113907"]]
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(4407396117088788495)[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mManager Create (0.5ms)[0m  [1m[32mINSERT INTO "managers" ("full_name", "team_name", "manager_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["full_name", "Robert Scharf"], ["team_name", "Sales"], ["manager_id", 2], ["created_at", "2019-05-28 11:44:37.116930"], ["updated_at", "2019-05-28 11:44:37.116930"]]
+  [1m[35m (3.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mManager Create (0.3ms)[0m  [1m[32mINSERT INTO "managers" ("full_name", "team_name", "manager_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["full_name", "Salma Derichou"], ["team_name", "Product"], ["manager_id", 1], ["created_at", "2019-05-28 11:46:02.469475"], ["updated_at", "2019-05-28 11:46:02.469475"]]
+  [1m[35m (6.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (manager_id == 2) LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (manager_id = 2) LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE (manager_id = 1) LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/teams" for ::1 at 2019-05-28 14:00:33 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 11ms (Views: 3.0ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:01:00 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:01:43 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 11ms (Views: 3.4ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:02:08 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 12ms (Views: 6.8ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:02:39 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:03:48 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 15ms (Views: 4.9ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:05:08 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:05:22 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:05:40 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:06:54 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:07:06 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:07:18 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:08:28 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:09:58 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:10:22 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:10:38 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:12:43 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:16:23 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:18:33 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:19:06 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:20:26 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:20:47 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:21:00 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:22:12 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:22:22 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:22:47 +0200
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 11ms (Views: 3.3ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:23:01 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:23:35 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:23:55 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:24:25 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:24:55 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:39:41 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:39:54 +0200
+Processing by UserController#home as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:6
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 14:59:36 +0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (8.0ms)[0m  [1m[34mSELECT * FROM managers INNER JOIN users ON users.manager_id=managers.managers_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 8.0ms)
+
+
+  
+ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column managers.managers_id does not exist
+LINE 1: ...ROM managers INNER JOIN users ON users.manager_id=managers.m...
+                                                             ^
+HINT:  Perhaps you meant to reference the column "managers.manager_id".
+: SELECT * FROM managers INNER JOIN users ON users.manager_id=managers.managers_id;):
+  
+app/controllers/user_controller.rb:5:in `home'
+Started GET "/teams" for ::1 at 2019-05-28 15:00:03 +0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT * FROM managers INNER JOIN users ON users.manager_id=managers.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 13ms (Views: 3.7ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:01:13 +0200
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT * FROM managers INNER JOIN users ON users.manager_id=managers.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 19ms (Views: 8.0ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:02:46 +0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT * FROM managers;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 18ms (Views: 5.8ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:03:05 +0200
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT * FROM managers INNER JOIN users ON users.manager_id=managers.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 14ms (Views: 4.2ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:04:37 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT managers.full_name FROM managers INNER JOIN users ON users.manager_id=managers.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 16ms (Views: 6.4ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:05:18 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT DISTINCT managers.full_name, users.name FROM managers INNER JOIN users ON users.manager_id=managers.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.6ms)
+
+
+  
+ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column users.name does not exist
+LINE 1: SELECT DISTINCT managers.full_name, users.name FROM managers...
+                                            ^
+: SELECT DISTINCT managers.full_name, users.name FROM managers INNER JOIN users ON users.manager_id=managers.manager_id;):
+  
+app/controllers/user_controller.rb:5:in `home'
+Started GET "/teams" for ::1 at 2019-05-28 15:05:58 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (33.6ms)[0m  [1m[34mSELECT DISTINCT managers.full_name FROM managers INNER JOIN users ON users.manager_id=managers.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 48ms (Views: 3.2ms | ActiveRecord: 36.0ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:06:58 +0200
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT DISTINCT managers.full_name, users.name FROM managers, users INNER JOIN users ON users.manager_id=managers.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.5ms)
+
+
+  
+ActiveRecord::StatementInvalid (PG::DuplicateAlias: ERROR:  table name "users" specified more than once
+: SELECT DISTINCT managers.full_name, users.name FROM managers, users INNER JOIN users ON users.manager_id=managers.manager_id;):
+  
+app/controllers/user_controller.rb:5:in `home'
+Started GET "/teams" for ::1 at 2019-05-28 15:07:19 +0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT managers.full_name, users.name FROM managers, users INNER JOIN users ON users.manager_id=managers.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.5ms)
+
+
+  
+ActiveRecord::StatementInvalid (PG::DuplicateAlias: ERROR:  table name "users" specified more than once
+: SELECT managers.full_name, users.name FROM managers, users INNER JOIN users ON users.manager_id=managers.manager_id;):
+  
+app/controllers/user_controller.rb:5:in `home'
+Started GET "/teams" for ::1 at 2019-05-28 15:08:44 +0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT managers.full_name, users.full_name FROM managers INNER JOIN users ON users.manager_id=managers.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 15ms (Views: 4.2ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:09:43 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT managers.full_name, users.full_name FROM managers INNER JOIN users ON users.manager_id=1;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 18ms (Views: 4.2ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:11:40 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT managers.full_name, users.full_name FROM managers INNER JOIN users ON users.manager_id=managers.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 19ms (Views: 6.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:13:37 +0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT * FROM managers INNER JOIN users ON users.manager_id=managers.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 15ms (Views: 4.0ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:14:30 +0200
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT * FROM users INNER JOIN managers ON users.manager_id=managers.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 14ms (Views: 3.7ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:15:14 +0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT *, users.full_name FROM users INNER JOIN managers ON users.manager_id=managers.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 16ms (Views: 5.6ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:16:11 +0200
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT manager.full_name, users.full_name FROM users INNER JOIN managers ON users.manager_id=managers.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.6ms)
+
+
+  
+ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  missing FROM-clause entry for table "manager"
+LINE 1: SELECT manager.full_name, users.full_name FROM users INNER J...
+               ^
+: SELECT manager.full_name, users.full_name FROM users INNER JOIN managers ON users.manager_id=managers.manager_id;):
+  
+app/controllers/user_controller.rb:5:in `home'
+Started GET "/teams" for ::1 at 2019-05-28 15:16:22 +0200
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT managers.full_name, users.full_name FROM users INNER JOIN managers ON users.manager_id=managers.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 13ms (Views: 3.9ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:17:01 +0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT managers.full_name, users.full_name FROM users INNER JOIN managers ON users.manager_id=1;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 13ms (Views: 3.9ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:17:25 +0200
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT DISTRINCT users.full_name FROM users INNER JOIN managers ON users.manager_id=1;[0m
+  ↳ app/controllers/user_controller.rb:5
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.3ms)
+
+
+  
+ActiveRecord::StatementInvalid (PG::SyntaxError: ERROR:  syntax error at or near "."
+LINE 1: SELECT DISTRINCT users.full_name FROM users INNER JOIN manag...
+                              ^
+: SELECT DISTRINCT users.full_name FROM users INNER JOIN managers ON users.manager_id=1;):
+  
+app/controllers/user_controller.rb:5:in `home'
+Started GET "/teams" for ::1 at 2019-05-28 15:17:44 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT users.full_name FROM users INNER JOIN managers ON users.manager_id=1;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 12ms (Views: 4.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:18:01 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT * FROM users INNER JOIN managers ON users.manager_id=1;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 13ms (Views: 4.0ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:18:35 +0200
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT * FROM users WHERE manager_id = 1 INNER JOIN managers ON users.manager_id=1;[0m
+  ↳ app/controllers/user_controller.rb:5
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.4ms)
+
+
+  
+ActiveRecord::StatementInvalid (PG::SyntaxError: ERROR:  syntax error at or near "INNER"
+LINE 1: SELECT * FROM users WHERE manager_id = 1 INNER JOIN managers...
+                                                 ^
+: SELECT * FROM users WHERE manager_id = 1 INNER JOIN managers ON users.manager_id=1;):
+  
+app/controllers/user_controller.rb:5:in `home'
+Started GET "/teams" for ::1 at 2019-05-28 15:18:47 +0200
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT * FROM users INNER JOIN managers ON users.manager_id=1;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 13ms (Views: 5.0ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:19:31 +0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT * FROM users WHERE users.manager_id=1;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 15ms (Views: 3.5ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:22:28 +0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT manager.full_name, users.full_name FROM users INNER JOIN managers ON users.manager_id=managers.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.6ms)
+
+
+  
+ActiveRecord::StatementInvalid (PG::UndefinedTable: ERROR:  missing FROM-clause entry for table "manager"
+LINE 1: SELECT manager.full_name, users.full_name FROM users INNER J...
+               ^
+: SELECT manager.full_name, users.full_name FROM users INNER JOIN managers ON users.manager_id=managers.manager_id;):
+  
+app/controllers/user_controller.rb:5:in `home'
+Started GET "/teams" for ::1 at 2019-05-28 15:22:37 +0200
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT managers.full_name, users.full_name FROM users INNER JOIN managers ON users.manager_id=managers.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 26ms (Views: 4.6ms | ActiveRecord: 5.6ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:23:35 +0200
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT managers.full_name, users.full_name FROM users INNER JOIN managers ON managers.manager_id=users.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 16ms (Views: 6.3ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:24:23 +0200
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT managers.full_name, users.manager_id FROM users INNER JOIN managers ON managers.manager_id=users.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 17ms (Views: 5.2ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:25:01 +0200
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT users.full_name, managers.manager_id FROM users INNER JOIN managers ON managers.manager_id=users.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 14ms (Views: 4.9ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:25:43 +0200
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT users.full_name, users.team_name, managers.manager_id FROM users INNER JOIN managers ON managers.manager_id=users.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 18ms (Views: 6.1ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:26:28 +0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/tchowski/.rbenv/versions/2.6.2/lib/ruby/gems/2.6.0/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by UserController#home as HTML
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT users.full_name, users.team_name, managers.full_name AS name_manager FROM users INNER JOIN managers ON managers.manager_id=users.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 14ms (Views: 3.9ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:27:28 +0200
+Processing by UserController#home as HTML
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT users.full_name, users.team_name, managers.full_name AS name_manager FROM users INNER JOIN managers ON managers.manager_id=users.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:27:38 +0200
+Processing by UserController#home as HTML
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT users.full_name, users.team_name, managers.full_name AS name_manager FROM users INNER JOIN managers ON managers.manager_id=users.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:27:59 +0200
+Processing by UserController#home as HTML
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT users.full_name, users.team_name, managers.full_name AS name_manager FROM users INNER JOIN managers ON managers.manager_id=users.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 4ms (Views: 1.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:28:26 +0200
+Processing by UserController#home as HTML
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT users.full_name, users.team_name, managers.full_name AS name_manager FROM users INNER JOIN managers ON managers.manager_id=users.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:29:23 +0200
+Processing by UserController#home as HTML
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT users.full_name, users.team_name, managers.full_name AS name_manager FROM users INNER JOIN managers ON managers.manager_id=users.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:32:41 +0200
+Processing by UserController#home as HTML
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT users.full_name, users.team_name, managers.full_name AS name_manager FROM users INNER JOIN managers ON managers.manager_id=users.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 10ms (Views: 6.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:32:42 +0200
+Processing by UserController#home as HTML
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT users.full_name, users.team_name, managers.full_name AS name_manager FROM users INNER JOIN managers ON managers.manager_id=users.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 7ms (Views: 3.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:37:33 +0200
+Processing by UserController#home as HTML
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT users.full_name, users.team_name, managers.full_name AS name_manager FROM users INNER JOIN managers ON managers.manager_id=users.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/teams" for ::1 at 2019-05-28 15:38:23 +0200
+Processing by UserController#home as HTML
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT users.full_name, users.team_name, managers.full_name AS name_manager FROM users INNER JOIN managers ON managers.manager_id=users.manager_id;[0m
+  ↳ app/controllers/user_controller.rb:5
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/user_controller.rb:8
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.6ms)
+
+
